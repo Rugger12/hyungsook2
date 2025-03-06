@@ -1,0 +1,30 @@
+<nav id="sidebar-nav-links">
+  {% if site.sidebar_home_link %}
+    <a class="home-link {% if page.url == '/' %} active{% endif %}"
+        href="{{ "/" | relative_url }}">Home</a>
+  {% endif %}
+  {% if site.sidebar_blog_link %}
+    <a class="page-link {% if page.url == site.sidebar_blog_link %} active{% endif %}"
+	href="{{ site.sidebar_blog_link | relative_url }}">Blog</a>
+  {% endif %}
+
+  {% comment %}
+    The code below dynamically generates a sidebar nav of pages with
+    `sidebar_link: true` in the front-matter. See readme for usage.
+  {% endcomment %}
+
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#contacts">Contact</a>
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#experience">Experience</a>
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#projects">Projects</a>
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#IP">Intellectual Properties</a>
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#papers">Academic Papers</a>
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#InvitedSpeaker">Invited Speaker</a>
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#Awards">Awards</a>
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#links">Links</a>  
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#news">News</a>
+  <a class="sidebar-nav-links" href="https://hyungsook.netlify.app#location">Map to HY-DHC</a>
+	
+	
+	
+  {% include custom-nav-links.html %}
+</nav>
