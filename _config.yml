@@ -1,9 +1,8 @@
----
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b034003b-3a36-4c1c-b939-bde40c85faea/deploy-status)](https://app.netlify.com/sites/zingy-scone-4c2caa/deploys)---
 title: Hydeout
-tagline: A Jekyll theme
-description: The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme
-  for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.
-url: 
+tagline: HYungsook Kim
+description: 한양대학교 교수
+url: 'https://hyungsook.netlify.app/'
 baseurl:
 author:
   name: Andrew Fong
